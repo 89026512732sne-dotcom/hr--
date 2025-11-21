@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Users, RefreshCcw } from 'lucide-react';
-import BookingForm from './components/BookingForm';
-import BookingList from './components/BookingList';
-import DashboardStats from './components/DashboardStats';
-import { fetchBookings, createBooking } from './services/bookingService';
+import BookingForm from './BookingForm';
+import BookingList from './BookingList';
+import DashboardStats from './DashboardStats';
+import { fetchBookings, createBooking } from './bookingService';
 import { Booking, BookingFormData } from './types';
 
 const App: React.FC = () => {
